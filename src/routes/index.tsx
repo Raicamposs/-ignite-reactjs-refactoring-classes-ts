@@ -1,10 +1,11 @@
-import { Switch, Route } from 'react-router-dom';
 
+import { Route, Switch } from 'react-router-dom';
 import Dashboard from '../pages/Dashboard';
+
 
 const Routes = () => (
   <Switch>
-    <Route path="/" exact component={Dashboard} />
+    <Route exact path="/" component={Dashboard} />
   </Switch>
 );
 

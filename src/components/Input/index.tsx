@@ -1,16 +1,15 @@
-import {
-  useEffect,
-  useRef,
-  useState,
-  useCallback,
-} from 'react';
-
 import { useField } from '@unform/core';
-
+import {
+  useCallback, useEffect,
+  useRef,
+  useState
+} from 'react';
 import { Container } from './styles';
 
-const Input = ({ name, icon: Icon, ...rest }) => {
-  const inputRef = useRef(null);
+
+
+const Input = ({ name, icon: Icon = undefined, ...rest }: any) => {
+  const inputRef = useRef<any>(null);
 
   const [isFocused, setIsFocused] = useState(false);
   const [isFilled, setIsFilled] = useState(false);

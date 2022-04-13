@@ -2,7 +2,7 @@
   "foods": [
     {
       "id": 1,
-      "name": "Ao molho",
+      "name": "Ao molho 2",
       "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas",
       "price": "19.90",
       "available": true,
@@ -10,19 +10,19 @@
     },
     {
       "id": 2,
-      "name": "Veggie",
+      "name": "Veggie 1",
       "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
       "price": "21.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
     },
     {
-      "id": 3,
-      "name": "A la Camarón",
-      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "25.90",
-      "available": false,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+      "image": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/c73aecc0-9e9d-4f5d-b055-539cf80aad11/202202162143_442Y_i.jpg",
+      "name": "NOITE MEXICANA",
+      "price": "20.50",
+      "description": "Fajitas + Buffalo + New Mexico",
+      "available": true,
+      "id": 3
     }
   ]
 }
